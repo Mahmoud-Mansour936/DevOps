@@ -1,5 +1,0 @@
-# Partitions
-
-[Explain](Partitions%2022d94834a4e58044ad48f754415c5a80/Explain%2022d94834a4e580d595bdeced3a399879.md)
-
-[CMDs](Partitions%2022d94834a4e58044ad48f754415c5a80/CMDs%2022e94834a4e580db936fc4771e14fc3b.md)
