@@ -51,7 +51,7 @@ ssh-keygen -t [type] -b [bytes] --> to generate the public and private keys
 # not recommended for automation to not stop the pipeline
 ```
 
-### Step 4
+### Step 2
 
 ```bash
 mkdir ~/.ssh
