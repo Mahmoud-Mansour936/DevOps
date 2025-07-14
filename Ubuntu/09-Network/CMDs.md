@@ -95,8 +95,7 @@ dig [url] --> more info than nslookup
 
 traceroute [url , ip ] --> see all hobs or layers to connect this url 
 
-curl [url] --> check the api of webserver by HTTP/HTTPS protocols /* it will show the 
-raw HTML code */
+curl [url] --> check the api of webserver by HTTP/HTTPS protocols # it will show the raw HTML code 
 -o [page.html] --> saves the output to a file named page.html
 
 ```
