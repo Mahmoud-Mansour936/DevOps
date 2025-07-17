@@ -6,16 +6,14 @@ This repository contains my personal notes and documentation as I learn and prac
 
 ## 📘 Topics Covered
 
-- Linux Commands & Permissions
-- Git & GitHub
-- Ansible
-- Bash Scripting
-- Networking Basics
-- System Administration
-- Docker (Coming Soon)
+- Ubuntu system administration
 
 ---
 
 ## 📁 Folder Structure
 
 Each topic has its own folder with notes and examples.
+
+# ⭐️ Support
+
+If you find this helpful, feel free to star the repo or share it!
