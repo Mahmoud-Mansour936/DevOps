@@ -75,3 +75,22 @@ useradd --> to add user
  
  groups --> show all groups iam member in it // first is primary 
 ```
+## To make system not to ask for sudo password
+
+Open the sudoers file safely:
+
+```bash
+bash
+CopyEdit
+sudo visudo
+
+```
+
+Add this line at the end (replace `your_username` with your actual username):
+
+```bash
+bash
+CopyEdit
+your_username ALL=(ALL) NOPASSWD: ALL
+
+```
