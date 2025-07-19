@@ -93,4 +93,8 @@ bash
 CopyEdit
 your_username ALL=(ALL) NOPASSWD: ALL
 
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 789b8a0d0d934004afb85b2de5941c9b233eb390

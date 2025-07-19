@@ -101,7 +101,7 @@ find [dir] [option]--> search live not wait for database to be updated and by an
 
  
 
-### Achieving
+### Archieving
 
 ```bash
 tar --> archive files
