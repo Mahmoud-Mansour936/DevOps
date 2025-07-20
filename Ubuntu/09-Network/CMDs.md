@@ -87,6 +87,31 @@ sudo systemctl start ssh
 
 ```
 
+### To make ssh doesn’t require password or ( yes, no ) checking for pipeline
+
+ 
+
+```bash
+# 1st method 
+# make a file in ansible dir with **.cfg** extension and write
+host-key-checking= false 
+# Skips SSH fingerprint verification.
+# Possible **security risk** in production unless controlled tightly.
+# can be used for ( test - demo - temp ) VMs
+
+# 2nd method 
+ssh-copy-id user@remote_host[IP]
+# Command used to copy your public SSH key to a remote server,
+# so you can log in without a password.
+# can be used for long-live VM
+
+# 3rd method
+ssh-keyscan [IP] >> ~/.ssh/known_hosts
+# This tool fetches the public host key of a remote server,
+# and outputs it in known_hosts format.
+# can be used in **Pipelines**
+```
+
 ## Another CMDs
 
 ```bash
@@ -95,7 +120,8 @@ dig [url] --> more info than nslookup
 
 traceroute [url , ip ] --> see all hobs or layers to connect this url 
 
-curl [url] --> check the api of webserver by HTTP/HTTPS protocols # it will show the raw HTML code 
+curl [url] --> check the api of webserver by HTTP/HTTPS protocols /* it will show the 
+raw HTML code */
 -o [page.html] --> saves the output to a file named page.html
 
 ```
