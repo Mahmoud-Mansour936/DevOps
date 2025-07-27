@@ -6,14 +6,13 @@
  vars: 
   dir: /etc/dir1 
   file1: "{{ dir }}/file1" # to concatenate
-	
+
   path: "{{ dir }}" 
-		# to call the variable
-		# spaces , quotes and curly brackets are required 
-		
-		
-		
-		#  we can put all vars in seperated file and call it by using 
+    # to call the variable
+    # spaces , quotes and curly brackets are required 
+
+
+    #  we can put all vars in seperated file and call it by using 
  vars_files: 
   - file1
 
