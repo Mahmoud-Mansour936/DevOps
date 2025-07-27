@@ -10,15 +10,15 @@
   tasks:
     - name: Install apache2 package
       apt:
-        name: apache2
-        state: present
-        update_cache: yes
+       name: apache2
+       state: present
+       update_cache: yes
 
     - name: Ensure apache2 is running
       service:
-        name: apache2
-        state: started
-        enabled: yes
+       name: apache2
+       state: started
+       enabled: yes
 
 				 
 ```

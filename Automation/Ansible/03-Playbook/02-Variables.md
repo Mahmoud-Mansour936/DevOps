@@ -4,18 +4,18 @@
 # at the same level with tasks 
 
 	vars: 
-		dir: /etc/dir1 
-		file1: "{{ dir }}/file1" # to concatenate
+	 dir: /etc/dir1 
+	 file1: "{{ dir }}/file1" # to concatenate
 	
-		path: "{{ dir }}" 
+	 path: "{{ dir }}" 
 		# to call the variable
 		# spaces , quotes and curly brackets are required 
 		
 		
 		
 		#  we can put all vars in seperated file and call it by using 
-		vars_files: 
-			- file1
+	vars_files: 
+	 - file1
 	
 ```
 

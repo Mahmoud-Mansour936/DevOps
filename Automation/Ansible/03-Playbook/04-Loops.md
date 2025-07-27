@@ -4,9 +4,9 @@
 # at the same level of name of module 
 
 loop: 
-	- value1
-	- vlaue2
-	- vlaue3
+ - value1
+ - vlaue2
+ - vlaue3
 	
 # to call the value of loop --> {{ item }}
 
