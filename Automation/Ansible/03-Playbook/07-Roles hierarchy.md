@@ -78,9 +78,9 @@
 # Instead of tasks --> roles 
 
 roles: 
-	- role1
-	- role2 
-	- role3
+ - role1
+ - role2 
+ - role3
 ```
 
 ## Important notes

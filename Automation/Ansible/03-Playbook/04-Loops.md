@@ -7,7 +7,7 @@ loop:
  - value1
  - vlaue2
  - vlaue3
-	
+
 # to call the value of loop --> {{ item }}
 
 # to make more than loop in same module 
