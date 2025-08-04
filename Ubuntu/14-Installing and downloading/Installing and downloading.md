@@ -33,7 +33,9 @@ ls  /etc/yum.repos.d/ -> to see the list of repositry
 ## Downloading
 
 ```bash
-curl url -o--> to download file 
+curl url -> Shows the raw HTML or content of the page
+-o --> to download file 
+-I --> Check if a URL is reachable
 
 wget ...... .. filename --> download file into file 
 
