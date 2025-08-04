@@ -7,6 +7,8 @@ This repository contains my personal notes and documentation as I learn and prac
 ## 📘 Topics Covered
 
 - Ubuntu system administration
+- Bash Scripting
+- Ansible 
 
 ---
 
