@@ -75,7 +75,7 @@ It gives the dir that partition will apply on them , anything on these dirs will
 ```bash
 # Mount the formatted partition to a directory:
 
-udo mount /dev/xvdh1 /mydir # 1st argument is the path of partition 
+sudo mount /dev/xvdh1 /mydir # 1st argument is the path of partition 
 # 2nd one is the path of dir u want to mount on it 
 # U can mount more than one dir 
 
