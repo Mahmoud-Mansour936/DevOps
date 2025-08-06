@@ -16,3 +16,4 @@
 ## Terminal :
 
 - the place that i write commands in it
+- Its called also TTY 
