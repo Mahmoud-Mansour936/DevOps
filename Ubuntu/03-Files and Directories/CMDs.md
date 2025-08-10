@@ -20,7 +20,7 @@ ls --> list files and folders
 touch --> make a file 
 # if file begins with dot --> hidden file 
 
-cat --> show file's content
+cat --> "show file's content"
 cat > --> add content to file : to end input press ( crtl+d )
 cat << EOF > file --> double input to add it to file # to end inputs write **EOF** 
 -n -> show line numbers
@@ -56,7 +56,8 @@ pwd --> print working directory
 cut [selected fields] [options] [file]--> get part from file 
 -d [sep] --> to select the seperator between fields u want # default is space
 -c [range] -> select the range of characters u want
--f [num] -> num of fields u want to work on
+-f [num] -> num of field u want to work on 
+# f1 means field1 , f2 means field2
 ```
 
 ### grep cmd ( search in files )
@@ -65,11 +66,11 @@ cut [selected fields] [options] [file]--> get part from file
 grep [word] [file]--> search for word include its line  # it will get every existance of this word
 -w -> give it as a single word
 -i -> ignore case senstive
--c -> num of word's existance
+-c -> "num of word's existance"
 -l --> name of file from given files that this word is existing
 ^[word] --> get lines that this word is first word in line
 [word]$ --> get lines that this word is last word in line
--v [word]$ --> get lines that this word isn't last word in line
+-v [word]$ --> "get lines that this word isn't last word in line"
 ```
 
 ### sort cmd
