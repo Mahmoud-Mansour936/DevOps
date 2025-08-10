@@ -59,11 +59,12 @@ chmod 700 ~/.shh
 cd /.ssh
 touch authorized_keys 
 chmod 600 authorized_keys
+# this file will be in target machine 
 ```
 
 ### Step 3
 
-we take this public key and copy it in **/.ssh/authorized_keys** file to save it in machine 
+we take this public key and copy it in **~/.ssh/authorized_keys** file to save it in machine 
 we want to connect to 
 
 ### Step 4: connect to the machine
