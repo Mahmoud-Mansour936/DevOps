@@ -83,6 +83,19 @@ sort --> sort file alphabetically
 -A[num] --> get [num] of lines after the line of this word
 ```
 
+### Uniq cmd
+
+- Always use `sort` before `uniq` if you want to catch **all duplicates**, not just consecutive ones.
+
+```bash
+uniq -> Remove adjacent duplicate lines
+-c -> Show number of occurrences for each unique line
+-d -> Show only duplicate lines
+-u -> Show only unique (non-repeated) lines
+-i -> Ignore case when comparing lines
+
+```
+
 ### Searching for files in system
 
 ```bash
