@@ -2,6 +2,7 @@
 
 ```bash
 ss -tuln --> show info of ports in machine
+ss -ltnp -> shows service on ports 
 
 ufw status --> show status of firewall
 ufw enable --> to enable firewall # take care it can override the security group on cloud
