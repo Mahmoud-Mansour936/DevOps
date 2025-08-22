@@ -80,8 +80,6 @@ useradd --> to add user
 Open the sudoers file safely:
 
 ```bash
-bash
-CopyEdit
 sudo visudo
 
 ```
@@ -89,8 +87,6 @@ sudo visudo
 Add this line at the end (replace `your_username` with your actual username):
 
 ```bash
-bash
-CopyEdit
 your_username ALL=(ALL) NOPASSWD: ALL
 
 <<<<<<< HEAD
