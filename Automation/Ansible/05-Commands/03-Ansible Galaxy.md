@@ -9,6 +9,8 @@
 
 **Install a role**
 
+- Installed in ~/.ansible/roles
+
 ```bash
 ansible-galaxy install [role_name]
 ```
