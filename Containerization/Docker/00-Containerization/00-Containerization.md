@@ -7,7 +7,7 @@
 
 ## Virtualization
 
-![23.png]("E:\study\DEVOPS\MY devops repo\Containerization\Docker\00-Containerization\images\23.png")
+![23.png](images/23.png")
 
 - To save more resources all services are applied on one server, but they were full separated from each other
 - Each server is defined with part of hardware of the host server and has its own OS
@@ -16,7 +16,7 @@
 
 ## Containerization
 
-![24.png](00-Containerization%2024594834a4e5804abae9c60bf9d2b431/24.png)
+![24.png](images/24.png)
 
 - All apps are using shared hardware → so each app will just use its resources, not have reserved ones
 - They all applied on Host OS kernel and don’t need the shell of distros
