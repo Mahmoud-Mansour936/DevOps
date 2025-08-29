@@ -50,7 +50,7 @@ Is basically a **metadata file** (usually in JSON format) that describes what’
     - Adds a thin **writable layer** on top.
     - Runs it as an isolated process on your host machine.
 
-![Docker.drawio.png](Explain%2024594834a4e58076abb0dedc1031c796/Docker.drawio.png)
+![Docker.drawio.png](images/Docker.drawio.png)
 
 - The containers usually are used to do one task or one process
 - This process will take PID=1
@@ -65,7 +65,7 @@ Is basically a **metadata file** (usually in JSON format) that describes what’
 
 # Engine Architecture
 
-![7.png](Explain%2024594834a4e58076abb0dedc1031c796/7.png)
+![7.png](images/7.png)
 
 ### 1. **Docker Client**
 

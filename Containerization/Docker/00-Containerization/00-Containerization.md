@@ -7,7 +7,7 @@
 
 ## Virtualization
 
-![23.png](images/23.png")
+![23.png](images/23.png)
 
 - To save more resources all services are applied on one server, but they were full separated from each other
 - Each server is defined with part of hardware of the host server and has its own OS
