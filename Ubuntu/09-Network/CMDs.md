@@ -21,7 +21,7 @@ ping connection can be established but the access to ports could be denied
 
 ```bash
 ping --> test the connection 
--c [num] --> num of packets to be sent
+-c <num> --> num of packets to be sent
 ```
 
 ## IP
@@ -30,10 +30,10 @@ ping --> test the connection
 ip a --> list all interface names of nic 
 # or i can list the " /sys/class/net "
  
-ip addr add [ip] dev [cable] --> to add ip 
+ip addr add <ip> dev <cable> --> to add ip 
 # it will be removed after restart if i want it permenantly --> edit in /etc/netplan file 
 
-ip addr del [ip] dev [cable] --> delete ip 
+ip addr del <ip> dev <cable> --> delete ip 
 ```
 
 ## SSH
@@ -41,7 +41,7 @@ ip addr del [ip] dev [cable] --> delete ip
 ### Step 1 : generate the public and private keys
 
 ```bash
-ssh-keygen -t [type] -b [bytes] --> to generate the public and private keys
+ssh-keygen -t <type> -b <bytes> --> to generate the public and private keys
 
 # the " type " must be the same type of system ( usually use **rsa** )
 
@@ -70,7 +70,7 @@ we want to connect to
 ### Step 4: connect to the machine
 
 ```bash
-ssh -i [private key file] [username]@[remote_host ip] --> to connect via ssh
+ssh -i <private key file> <username>@<remote_host ip> --> to connect via ssh
 ```
 
 ### ##important notes
@@ -101,13 +101,13 @@ host-key-checking= false
 # can be used for ( test - demo - temp ) VMs
 
 # 2nd method 
-ssh-copy-id user@remote_host[IP]
+ssh-copy-id user@remote_host<IP>
 # Command used to copy your public SSH key to a remote server,
 # so you can log in without a password.
 # can be used for long-live VM
 
 # 3rd method
-ssh-keyscan [IP] >> ~/.ssh/known_hosts
+ssh-keyscan <IP> >> ~/.ssh/known_hosts
 # This tool fetches the public host key of a remote server,
 # and outputs it in known_hosts format.
 # can be used in **Pipelines**
@@ -116,13 +116,13 @@ ssh-keyscan [IP] >> ~/.ssh/known_hosts
 ## Another CMDs
 
 ```bash
-nslookup [url] --> server and ip of this site 
-dig [url] --> more info than nslookup
+nslookup <url> --> server and ip of this site 
+dig <url> --> more info than nslookup
 
-traceroute [url , ip ] --> see all hobs or layers to connect this url 
+traceroute <url , ip > --> see all hobs or layers to connect this url 
 
-curl [url] --> check the api of webserver by HTTP/HTTPS protocols /* it will show the 
+curl <url> --> check the api of webserver by HTTP/HTTPS protocols /* it will show the 
 raw HTML code */
--o [page.html] --> saves the output to a file named page.html
+-o <page.html> --> saves the output to a file named page.html
 
 ```

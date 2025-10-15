@@ -21,8 +21,8 @@ useradd --> to add user
  
  
  su --> switch to user 
- - [user] --> to enter the enviroment of this user 
- -c [cmd] --> to do a cmd with this user for one time
+ - <user> --> to enter the enviroment of this user 
+ -c <cmd> --> to do a cmd with this user for one time
  
  
  usermod --> to modify the user // same options of add
@@ -64,7 +64,7 @@ useradd --> to add user
  groupdel --> delete group // if it's not primary group for any user
  
  
- chgrp [group] [file] --> change file's group 
+ chgrp <group> <file> --> change file's group 
  // owner of file can make this cmd and member in group which want to change into
  
  
@@ -89,8 +89,7 @@ Add this line at the end (replace `your_username` with your actual username):
 ```bash
 your_username ALL=(ALL) NOPASSWD: ALL
 
-<<<<<<< HEAD
 ```
 =======
 ```
->>>>>>> 789b8a0d0d934004afb85b2de5941c9b233eb390
+

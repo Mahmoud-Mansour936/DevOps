@@ -12,19 +12,19 @@
 - Installed in ~/.ansible/roles
 
 ```bash
-ansible-galaxy install [role_name]
+ansible-galaxy install <role_name>
 ```
 
 **Install roles from a file**
 
 ```bash
-ansible-galaxy install -r [file_name]
+ansible-galaxy install -r <file_name>
 ```
 
 **Create a new role**
 
 ```bash
-ansible-galaxy init [role_name]
+ansible-galaxy init <role_name>
 ```
 
  **List installed roles**
@@ -36,5 +36,5 @@ ansible-galaxy list
 **Remove a role**
 
 ```bash
-ansible-galaxy remove [role_name]
+ansible-galaxy remove <role_name>
 ```

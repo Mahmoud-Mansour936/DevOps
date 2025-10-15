@@ -24,7 +24,7 @@ COPY *.txt /dir/
 COPY . /dir/ 
 # It copies all files to /dir 
 COPY ["name with spcaes.txt" , "/app/"]
-# If file name contains spaces , it's called exce_mode 
+# If file name contains spaces , it's called exec_mode 
 
 ADD [file] 
 # Copy files don't exist in machine like from internet or github ..

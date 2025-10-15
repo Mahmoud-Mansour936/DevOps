@@ -33,3 +33,4 @@
 ### Anonymous volumes
 
 - Volumes but without names → Docker manages their names
+- Are deleted after removing the container 

@@ -5,7 +5,7 @@ uname --> name of os
 cal --> calendar
 whatis --> like 'man' but gives smaller information
 echo --> print
-tr [old] [new] --> change old to new in file
+tr <old> <new> --> change old to new in file
 
 sudo --> allows users to run commands with privileges that only root user have : write
 sudo before the command

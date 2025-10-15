@@ -27,7 +27,7 @@ docker-compose up
 ## exec
 
 ```bash
-docker-compose exec [name of service] [cmd] # don't need to write id or name of container
+docker-compose exec <name of service> <cmd> # don't need to write id or name of container
 ```
 
 ## Remove
@@ -39,6 +39,6 @@ docker-compose down
  
 --rmi --> delete images 
  
- -v --> delte volumes 
+ -v --> delete volumes 
  
 ```

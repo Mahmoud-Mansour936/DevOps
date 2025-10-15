@@ -11,7 +11,7 @@ ls --> list files and folders
 -lh --> give long information with easy size reading
 -ld --> info for dir itself not what inside it 
 -i --> give inode number 
-[blabla]* --> it will give all files that ends by "blabla"
+<blabla>* --> it will give all files that ends by "blabla"
 ```
 
 ## Files CMDs
@@ -53,24 +53,24 @@ pwd --> print working directory
 ### cut cmd
 
 ```bash
-cut [selected fields] [options] [file]--> get part from file 
--d [sep] --> to select the seperator between fields u want # default is space
--c [range] -> select the range of characters u want
--f [num] -> num of field u want to work on 
+cut <selected fields> <options> <file>--> get part from file 
+-d <sep> --> to select the seperator between fields u want # default is space
+-c <range> -> select the range of characters u want
+-f <num> -> num of field u want to work on 
 # f1 means field1 , f2 means field2
 ```
 
 ### grep cmd ( search in files )
 
 ```bash
-grep [word] [file]--> search for word include its line  # it will get every existance of this word
+grep <word> <file>--> search for word include its line  # it will get every existance of this word
 -w -> give it as a single word
 -i -> ignore case senstive
 -c -> "num of word's existance"
 -l --> name of file from given files that this word is existing
-^[word] --> get lines that this word is first word in line
-[word]$ --> get lines that this word is last word in line
--v [word]$ --> "get lines that this word isn't last word in line"
+^<word> --> get lines that this word is first word in line
+<word>$ --> get lines that this word is last word in line
+-v <word>$ --> "get lines that this word isn't last word in line"
 ```
 
 ### sort cmd
@@ -80,7 +80,7 @@ sort --> sort file alphabetically
 -k --> give him key or field which it will be sorted 
 -t --> to select the seperator u want # default is space
 -n --> to sort by numbers 
--A[num] --> get [num] of lines after the line of this word
+-A<num> --> get <num> of lines after the line of this word
 ```
 
 ### Uniq cmd
@@ -103,12 +103,12 @@ locate --> search for file in system by name
 # good bacause it is so speed 
 # bad because if database not updated by root file won't be found
 
-find [dir] [option]--> search live not wait for database to be updated and by anything 
+find <dir> <option>--> search live not wait for database to be updated and by anything 
 # its cons is being slow 
--name [filename] --> by name 
--size [+,-] n --> by size # n represent 512 bytes and (+,-) higher or lower n 
+-name <filename> --> by name 
+-size <+,-> n --> by size # n represent 512 bytes and (+,-) higher or lower n 
 -type (f,d) --> file or dir
--atime [+,-] n --> Searches for files accessed in the last n days
+-atime <+,-> n --> Searches for files accessed in the last n days
 -user --> Searches for files owned by a specific user
 -group --> Searches for files owned by a specific group
 ```
