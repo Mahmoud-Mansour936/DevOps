@@ -17,6 +17,7 @@ Each microservice:
 - Runs on its **own container**
 - Can be developed, updated, and scaled **independently**
 - Communicates with others via **HTTP or internal Docker network**
+    - Makes a default network with built-in DNS for all its containers 
 
 ## Docker compose
 
