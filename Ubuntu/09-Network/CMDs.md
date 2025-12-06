@@ -55,7 +55,7 @@ ssh-keygen -t <type> -b <bytes> --> to generate the public and private keys
 
 ```bash
 mkdir ~/.ssh
-chmod 700 ~/.shh
+chmod 700 ~/.ssh
 cd /.ssh
 touch authorized_keys 
 chmod 600 authorized_keys
@@ -64,8 +64,8 @@ chmod 600 authorized_keys
 
 ### Step 3
 
-we take this public key and copy it in **~/.ssh/authorized_keys** file to save it in machine 
-we want to connect to 
+we take this public key and copy it in **~/.ssh/authorized_keys** file to save it in target machine 
+
 
 ### Step 4: connect to the machine
 
